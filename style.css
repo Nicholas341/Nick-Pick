@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ce1414;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0073e6;
+}
+h2{
+    text-align: center;
+}
+
+.product-container, .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.banner-card{
+    position: relative;
+}
+  .banner-card img {
+max-width: 100%;
+height: auto;
+margin-left: auto;
+margin-left: auto;
+  }
+  imgMain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-text{
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+  }
+.banner-text h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:5px ;
+}
+
+
+
+
+.product, .gallery-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img, .gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+
+
+
